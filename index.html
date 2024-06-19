@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hangman</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Orbitron:wght@400..900&family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <div class="container">
+        <div class="hangman-container">
+            <img src="images/hangman-0.svg" alt="hangman-image">
+            <h2 class="hangman-heading">
+                <h2 id="hangman-back">HANGMAN GAME</h2>
+                <h2 id="hangman-front">HANGMAN GAME</h2>
+            </h2>
+        </div>
+        <div class="game-container">
+            <ul class="letters-word-box">
+                    <!-- <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li> -->
+            </ul>
+            <div class="hint-container">
+                <div class="hint">Hint:</div>
+                <div class="hint-text"></div>
+            </div>
+            <div class="incorrect-guesses">Incorrect guesses : <b class="guess"></b>/6</div>
+            <div class="keyboard">
+                <div class="pad-front">
+                    <button class="pushable">
+                        <span class="front">A</span>
+                    </button>
+                    <button class="pushable">
+                        <span class="front"></span>
+                    </button><button class="pushable">
+                        <span class="front"></span>
+                    </button><button class="pushable">
+                        <span class="front"></span>
+                    </button><button class="pushable">
+                        <span class="front"></span>
+                    </button><button class="pushable">
+                        <span class="front"></span>
+                    </button><button class="pushable">
+                        <span class="front"></span>
+                    </button><button class="pushable">
+                        <span class="front"></span>
+                    </button><button class="pushable">
+                        <span class="front"></span>
+                    </button><button class="pushable">
+                        <span class="front"></span>
+                    </button><button class="pushable">
+                        <span class="front"></span>
+                    </button><button class="pushable">
+                        <span class="front"></span>
+                    </button><button class="pushable">
+                        <span class="front"></span>
+                    </button><button class="pushable">
+                        <span class="front"></span>
+                    </button><button class="pushable">
+                        <span class="front"></span>
+                    </button><button class="pushable">
+                        <span class="front"></span>
+                    </button><button class="pushable">
+                        <span class="front"></span>
+                    </button><button class="pushable">
+                        <span class="front"></span>
+                    </button><button class="pushable">
+                        <span class="front"></span>
+                    </button><button class="pushable">
+                        <span class="front"></span>
+                    </button><button class="pushable">
+                        <span class="front"></span>
+                    </button><button class="pushable">
+                        <span class="front"></span>
+                    </button><button class="pushable">
+                        <span class="front"></span>
+                    </button><button class="pushable">
+                        <span class="front"></span>
+                    </button><button class="pushable">
+                        <span class="front"></span>
+                    </button><button class="pushable">
+                        <span class="front"></span>
+                    </button>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <div class="pop-up">
+        <div class="pop-up-container" >
+            <img src="images/sad.gif" alt="victory">
+            <h3></h3>
+            <h4 class="outer-word"><h4 class="word"></h4></h4>
+            <button class="play-again-outer">
+                <span class="play-again">PLAY AGAIN</span>
+            </button>
+
+        </div>
+    </div>
+    <script src="script1.js"></script>
+</body>
+</html>
